@@ -50,7 +50,7 @@ int setup(uint16_t port){
 
 void print_help(po::options_description desc){
     std::cout<<"Usage: ./server [--help] port\n\n";
-    std::cout<<"TCP Ping - Server - Made by Brian su (b08902107)\n\n";
+    std::cout<<"TCP Ping - Server - Made by Po-Hsuan Su (b08902107)\n\n";
     std::cout<<"Positional Argument\n  port - Port to listen on\n\n";
     std::cout<<"Optional Arguments\n";
     std::cout<<desc<<std::endl;
@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
         print_help(desc);
     }
     
-    logger::log_info("== TCP Ping - Server - Made by Brian su (b08902107) ==");
+    logger::log_info("== TCP Ping - Server - Made by Po-Hsuan Su (b08902107) ==");
     int fd = setup(port);
     
     while(1)

@@ -8,7 +8,7 @@ This project is a homework of NTU CSIE Computer Networks, Fall 2019.
 
 ## Feature highlights
 
-![Screen shot of the client](https://i.imgur.com/1G23E2l.png)
+![Screen shot of the client](https://i.imgur.com/Y7p6sDQ.png)
 
 - Can ping mutiple target simultaneously. (Implemented using `std::thread`)
 - Colored output.

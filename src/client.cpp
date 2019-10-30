@@ -129,7 +129,7 @@ void pinger(target &tg, int target_id, int num, int tout, int twait){
 
 void print_help(po::options_description desc){
     std::cout<<"Usage: ./client [--help] [-n num] [-t timeout] [-w wait] target1 [target2 ...]\n\n";
-    std::cout<<"TCP Ping - Client - Made by Brian su (b08902107)\n\n";
+    std::cout<<"TCP Ping - Client - Made by Po-Hsuan Su (b08902107)\n\n";
     std::cout<<"Positional Argument\n  target - Target(s) in `host:port` form, host can be in hostname or ip\n\n";
     std::cout<<"Optional Arguments\n";
     std::cout<<desc<<std::endl;
@@ -183,7 +183,7 @@ int main(int argc, char *argv[])
 
     for(auto &s:target_strs)targets.push_back(cmd_to_target(s));
 
-    logger::log_info("== TCP Ping - Client - Made by Brian su (b08902107) ==");
+    logger::log_info("== TCP Ping - Client - Made by Po-Hsuan Su (b08902107) ==");
 
     std::vector<std::thread> thread_v;
 
